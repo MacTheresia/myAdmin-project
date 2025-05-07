@@ -17,16 +17,30 @@ public class TableAction {
         this.password = password;
     }
 
-    public void createTable(String tableName, List <String> columns){
-        executeSQL("CREATE TABLE" + tableName + "{ " + tableName +"id INTEGER PRIMARY KEY" + columns + " }");
+    public void createTable(String tableName, List<String> columns) {
+        StringBuilder sql = new StringBuilder();
+        sql.append("CREATE TABLE ").append(tableName).append(" (");
+        sql.append(tableName).append("_id INTEGER PRIMARY KEY");
+
+        for (String column : columns) {
+            sql.append(", ").append(column);
+        }
+
+        sql.append(")");
+        executeSQL(sql.toString());
     }
 
-    public void readTable(String tableName){
-        executeSQL("SELECT * FROM" + tableName);
+    public void readTable(String tableName) {
+        String sql = "SELECT * FROM " + tableName;
+        executeSQL(sql);
     }
 
-    public void updateTable(String tableName, List <String> updatedColumns){
-    executeSQL("ALTER TABLE " + tableName);
+    public void updateTable(String tableName, List<String> updatedColumns) {
+        // Exemple : ajouter une ou plusieurs colonnes
+        for (String column : updatedColumns) {
+            String sql = "ALTER TABLE " + tableName + " ADD COLUMN " + column;
+            executeSQL(sql);
+        }
     }
 
     private void executeSQL(String sql) {
