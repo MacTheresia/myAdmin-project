@@ -1,0 +1,50 @@
+30-Apr-2025 11:32:44.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+30-Apr-2025 11:32:44.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+30-Apr-2025 11:32:44.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+30-Apr-2025 11:32:44.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2025 11:32:44.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.11.0-21-generic
+30-Apr-2025 11:32:44.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2025 11:32:44.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+30-Apr-2025 11:32:44.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.6+7-Ubuntu-124.04.1
+30-Apr-2025 11:32:44.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2025 11:32:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104
+30-Apr-2025 11:32:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104
+30-Apr-2025 11:32:44.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2025 11:32:44.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+30-Apr-2025 11:32:44.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+30-Apr-2025 11:32:44.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2025 11:32:44.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2025 11:32:44.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2025 11:32:44.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2025 11:32:44.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/conf/logging.properties
+30-Apr-2025 11:32:44.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2025 11:32:44.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2025 11:32:44.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2025 11:32:44.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Apr-2025 11:32:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2025 11:32:44.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2025 11:32:44.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104
+30-Apr-2025 11:32:44.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104
+30-Apr-2025 11:32:44.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/temp
+30-Apr-2025 11:32:44.770 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2025 11:32:47.289 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:32:47.587 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [6457] milliseconds
+30-Apr-2025 11:32:48.085 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2025 11:32:48.086 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+30-Apr-2025 11:32:48.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/examples]
+30-Apr-2025 11:32:52.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/examples] has finished in [4,569] ms
+30-Apr-2025 11:32:52.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/docs]
+30-Apr-2025 11:32:52.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/docs] has finished in [122] ms
+30-Apr-2025 11:32:52.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/manager]
+30-Apr-2025 11:32:53.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/manager] has finished in [134] ms
+30-Apr-2025 11:32:53.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/ROOT]
+30-Apr-2025 11:32:53.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/ROOT] has finished in [60] ms
+30-Apr-2025 11:32:53.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/host-manager]
+30-Apr-2025 11:32:53.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/host-manager] has finished in [42] ms
+30-Apr-2025 11:32:53.208 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:32:53.280 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5690] milliseconds
+30-Apr-2025 11:36:03.259 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/code]
+30-Apr-2025 11:36:03.334 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/code] has finished in [75] ms
+30-Apr-2025 15:39:51.965 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/code]
+30-Apr-2025 15:43:12.137 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/code]
+30-Apr-2025 15:43:12.172 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/eudoxie/Documents/Esti/L3/Java entreprise/Code/Formulaire de connexion/apache-tomcat-9.0.104/webapps/code] has finished in [36] ms
