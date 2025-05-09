@@ -7,8 +7,8 @@ public class ExecuteRequest {
     // Méthode pour exécuter une requête SQL sur une base de données donnée
     public static void executeQuery(String databaseName, String sql) {
         String url = "jdbc:mysql://localhost:3306/" + databaseName + "?useSSL=false&serverTimezone=UTC";
-        String user = "root"; // À adapter selon votre configuration
-        String password = ""; // À adapter selon votre configuration
+        String user = "root";
+        String password = "";
 
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Statement stmt = conn.createStatement()) {
@@ -37,7 +37,6 @@ public class ExecuteRequest {
         }
     }
 
-    // Exemple d'utilisation
     public static void main(String[] args) {
         String database = "ma_base"; // Nom de la base à adapter
         String requete = "SELECT * FROM users"; // Requête à adapter

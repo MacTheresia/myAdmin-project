@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    background-color: #2d89ef;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b6acb;
+}
+
+.name-list {
+    list-style: none;
+    padding: 0;
+}
+
+.name-item {
+    background-color: #f9f9f9;
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    transition: background 0.3s;
+}
+
+.name-item:hover {
+    background-color: #f1f1f1;
+}
+
+.toggle-btn {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 16px;
+    transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+    background-color: #ccc;
+}
+
+.name-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    input[type="text"] {
+        border-right: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+}

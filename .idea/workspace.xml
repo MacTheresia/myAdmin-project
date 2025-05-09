@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5a30743-c1f4-474f-a57d-7dc9aaf7c6e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/ExecuteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/createDatabase.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/createDatabasePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/createTableForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/databaseList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/executeQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/loadTables.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/include/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/jsp/requestPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/resources/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TableAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/TableAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ExecuteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/ExecuteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +57,38 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/L3 IDEV/Java Hybernate/apache-tomcat-9.0.100/webapps/myAdmin-project",
+    "last_opened_file_path": "C:/apache-tomcat-9.0.100/webapps/myproject/src/webapp/classes",
     "onboarding.tips.debug.path": "C:/Users/Theresia/IdeaProjects/MyAdmin/src/main/java/org/example/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\apache-tomcat-9.0.100\webapps\myproject\src\webapp\classes" />
+      <recent name="C:\apache-tomcat-9.0.100\webapps\myproject\src\webapp" />
       <recent name="F:\L3 IDEV\Java Hybernate\apache-tomcat-9.0.100\webapps\MyAdmin" />
       <recent name="F:\L3 IDEV\Java Hybernate\apache-tomcat-9.0.100\webapps\MyAdmin\src\main\java\org\example\view" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\apache-tomcat-9.0.100\webapps\myproject\src\webapp\JSP" />
+      <recent name="F:\L3 IDEV\Java Hybernate\apache-tomcat-9.0.100\webapps\myAdmin-project\src\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="myproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="myproject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
